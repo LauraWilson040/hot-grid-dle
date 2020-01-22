@@ -19,13 +19,24 @@ html {
   box-sizing: inherit;
 }
 
-.img-flex {
+body {
+  margin: 0;
+}
+
+figure {
   position: relative;
 }
 
+.img-flex {
+  display: block;
+  width: 100%
+}
+
 figcaption {
+  background-color: #000;
   position: absolute;
   max-width: 15em;
   bottom: .5rem;
   left: .5rem;
+  color: #fff;
 }
